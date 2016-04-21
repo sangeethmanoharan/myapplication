@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/intro" android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".FirstScreen">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#464646" android:id="@+id/textfirstscreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <Button android:textSize="18sp" android:textColor="#ffffff" android:id="@+id/buttonreintentar" android:background="#343838" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/Retry" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:onClick="OnClickReintentar" />
+    <TextView android:textStyle="bold" android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_marginBottom="5dp" android:text="New Text" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>
